@@ -6,11 +6,11 @@ import java.util.Set;
 public class Brand {
     Set<String> inStockBrands = new HashSet<>();
 
-    void addNewBrand(String clothes){
+    void addNewBrand(String clothes) {
         inStockBrands.add(clothes);
     }
 
-    void removePosition(String clothes){
+    void removePosition(String clothes) {
         inStockBrands.remove(clothes);
     }
 
@@ -23,6 +23,7 @@ public class Brand {
 
         }
     }
+
     void printAllBrands() {
         for (String inStockBrand : inStockBrands) {
             System.out.println("Existing Brand:" + inStockBrand);

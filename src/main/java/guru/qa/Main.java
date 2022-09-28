@@ -41,7 +41,6 @@ public class Main {
         classRegister.printAllStudents();
 
 
-
     }
 
 }

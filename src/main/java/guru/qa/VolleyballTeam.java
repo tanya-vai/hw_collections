@@ -16,18 +16,18 @@ public class VolleyballTeam {
 
 
     void removeMember(String name) {
-        if(memberNames.contains(name)){
-                memberNames.remove(name);
-            } else {
-                System.out.println("There is no "+ name + " in the team");
-            }
+        if (memberNames.contains(name)) {
+            memberNames.remove(name);
+        } else {
+            System.out.println("There is no " + name + " in the team");
         }
+    }
 
     void findMember(String name) {
         if (memberNames.contains(name)) {
             System.out.println(name + " is in the team");
         } else {
-            System.out.println("There is "+ name + " in the team");
+            System.out.println("There is " + name + " in the team");
         }
     }
 

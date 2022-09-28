@@ -22,8 +22,8 @@ public class BoardGames {
         }
     }
 
-    public void printAllBoardGames(){
-        for(Map.Entry<String,Integer> entry : storedBoardGames.entrySet()){
+    public void printAllBoardGames() {
+        for (Map.Entry<String, Integer> entry : storedBoardGames.entrySet()) {
             System.out.println("Board game " + entry.getKey() + ", price: " + entry.getValue());
         }
     }
